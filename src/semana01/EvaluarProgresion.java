@@ -27,7 +27,7 @@ public class EvaluarProgresion {
         if (2*n2 == n1 + n3) {
             System.out.printf("\nLos números [%d; %d; %d] están en progresión aritmética\n", n1, n2, n3);
         } else {
-            System.out.printf("\nLos números NO están en progresión aritmética\n", n1, n2, n3);
+            System.out.printf("\nLos números NO están en progresión aritmética\n");
         }
               
     }

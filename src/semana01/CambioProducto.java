@@ -17,7 +17,7 @@ public class CambioProducto {
         int numeroDia;
         Scanner scan = new Scanner(System.in);
         
-// Entrada
+        // Entrada
         System.out.println("Ingrese el precio del producto:");
         precioProducto = scan.nextDouble();
         System.out.println("Ingrese el número del día (Lunes = 1, Martes = 2, ...):");

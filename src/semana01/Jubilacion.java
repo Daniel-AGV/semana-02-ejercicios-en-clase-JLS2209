@@ -20,7 +20,7 @@ public class Jubilacion {
 
         // Entrada
         System.out.println("Ingrese su sexo (M/F):");
-        sexo = scan.nextLine().charAt(0);
+        sexo = scan.next().toUpperCase().charAt(0);
         System.out.println("Ingrese su edad:");
         edad = scan.nextInt();
 
@@ -33,9 +33,9 @@ public class Jubilacion {
             System.out.println("\nIngrese un valor válido para sexo.");
         } else {
             if (aplicaMasculino || aplicaFemenino) {
-                System.out.println("\nUsted está en edad de jubilación");
+                System.out.println("\nUsted se jubila.");
             } else {
-                System.out.println("\nUsted NO está en edad de jubilación");
+                System.out.println("\nUsted NO se jubila.");
             }
 
         }
